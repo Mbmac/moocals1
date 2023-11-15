@@ -1,0 +1,86 @@
+import {StyleSheet} from 'react-native';
+import COLORS from '../../../assets/Colors/colors';
+const styles = StyleSheet.create({
+  container: {flex: 1, backgroundColor: '#fff'},
+  titleViewStyle: {
+    flexDirection: 'row',
+    marginTop: 70,
+    marginHorizontal: 15,
+  },
+  imageBackgroundStyle: {width: '100%', height: 180},
+  headerText: {
+    fontSize: 27,
+    fontFamily: 'Poppins-Bold',
+    textAlignVertical: 'center',
+    flex: 0.9,
+    color: '#FFF',
+  },
+  profileSectionView: {
+    flex: 0.1,
+    alignItems: 'center',
+  },
+  profileIcon: {width: 36, height: 36},
+  centerSection: {flex: 0.7, paddingLeft: 6, gap: 5, justifyContent: 'center'},
+  item: {
+    backgroundColor: '#fff',
+    padding: 5,
+    marginTop: 10,
+    flexDirection: 'row',
+  },
+  title: {
+    fontSize: 16,
+    fontFamily: 'Lato-Bold',
+    marginTop: 5,
+  },
+  descriptionText: {
+    fontSize: 12,
+    marginTop: 5,
+    fontFamily: 'Lato-Regular',
+    color: '#8D8D8D',
+  },
+  profileView: {
+    width: 40,
+    height: 40,
+    borderRadius: 50,
+    overflow: 'hidden',
+    borderWidth: 2,
+    borderColor: COLORS.whiteColor,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  advertisementListView: {
+    flex: 1,
+    backgroundColor: COLORS.whiteColor,
+    marginTop: -30,
+    marginBottom: 30,
+    borderTopRightRadius: 30,
+    borderTopLeftRadius: 30,
+    paddingHorizontal: 20,
+    paddingVertical: 2,
+  },
+  listDividerLine: {
+    height: 1,
+    width: '95%',
+    marginTop: 10,
+    backgroundColor: '#ECECEC',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  listImageView: {
+    flex: 0.3,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
+    marginRight: 15,
+  },
+  renderView: {alignItems: 'center'},
+  renderImageStyle: {width: '100%', height: 90, borderRadius: 10},
+  emptyView: {
+    flex:1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 30,
+  },
+  emptyText: {color: COLORS.parentColor, fontSize: 16, fontWeight: '600'},
+});
+export default styles;
